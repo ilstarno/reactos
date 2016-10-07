@@ -171,17 +171,17 @@ STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUPWINDOW | WS_DLGFRAME
 CAPTION "General"
 FONT 8, "MS Shell Dlg"
 {
-    GROUPBOX         "Select an icon size for programs ", IDC_STATIC, 7, 7, 238, 37
+    GROUPBOX         "Zgjidh nje madhesi ikone per programet ", IDC_STATIC, 7, 7, 238, 37
     ICON             IDC_LARGEICON, 17, 18, 20, 20, SS_CENTERIMAGE
     ICON             IDC_SMALLICON, 151, 18, 20, 20, SS_CENTERIMAGE
-    AUTORADIOBUTTON  "&Large icons", IDC_CHOOSELARGE, 43, 25, 53, 10
-    AUTORADIOBUTTON  "&Small icons", IDC_CHOOSESMALL, 177, 25, 51, 10, NOT WS_TABSTOP
-    GROUPBOX         "Programs ", IDC_STATIC, 7, 49, 238, 70
+    AUTORADIOBUTTON  "&Ikona te medhaja", IDC_CHOOSELARGE, 43, 25, 53, 10
+    AUTORADIOBUTTON  "&Ikona te vogla", IDC_CHOOSESMALL, 177, 25, 51, 10, NOT WS_TABSTOP
+    GROUPBOX         "Programet ", IDC_STATIC, 7, 49, 238, 70
     LTEXT            "The Start menu contains shortcuts to the programs you use most often.  Clearing the list of shortcuts does not delete the programs.", IDC_STATIC, 14, 63, 224, 20
     LTEXT            "&Number of programs on Start menu:", IDC_STATIC, 14, 86, 112, 8
     EDITTEXT         IDC_NUMBEROFPROGRAMS, 133, 84, 27, 12, ES_LEFT | ES_RIGHT | ES_NUMBER
     CONTROL          "", IDC_NUMBERUPDOWN, "msctls_updown32", WS_BORDER | 0x000000B6, 160, 84, 11, 12
-    PUSHBUTTON       "&Clear List", IDC_CLEARLIST, 182, 98, 57, 14
+    PUSHBUTTON       "&Pastro Listen", IDC_CLEARLIST, 182, 98, 57, 14
     GROUPBOX         "Show on Start menu ", IDC_STATIC, 7, 126, 238, 63
     AUTOCHECKBOX     "&Internet:", IDC_SHOWINTERNET, 14, 140, 42, 10
     COMBOBOX         IDC_INTERNETDEFAULTAPP, 98, 138, 140, 200, CBS_DROPDOWNLIST | WS_VSCROLL
